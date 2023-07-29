@@ -1,7 +1,7 @@
 import type { V2_MetaFunction } from "@remix-run/node";
 import PastedTextContext from "~/context/PastedText";
 import Turndown from "turndown";
-import { useMemo, useContext } from "react";
+import { useState, useMemo, useContext } from "react";
 
 export const meta: V2_MetaFunction = () => {
   return [{ title: "New Remix App" }];
